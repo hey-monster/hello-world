@@ -1,0 +1,26 @@
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere
+collaboration  合作
+This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests. You’ll create your own Hello World repository and learn GitHub’s Pull Request workflow, a popular way to create and review code.
+tutorial 教程
+essentials 基本
+repository 存储库
+separate  单独/分离的
+A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. 
+spreadsheets 表格
+data sets 数据集
+By default your repository has one branch named master which is considered to be the definitive branch
+definitive 确定/权威
+In the upper right corner, next to your avatar or identicon, click  and then select New repository.
+avatar or identicon头像或标识
+Click the drop down at the top of the file list that says branch: master.
+drop down 下拉列表
+Bravo 太棒了
+so other contributors can understand what you’ve done and why.
+contributor 贡献者
+By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+hall  大厅，堂
+Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+incorporate 合并/包括
+purple 紫色
+Take a look at your GitHub profile and you’ll see your new contribution squares!
+squares  方块
