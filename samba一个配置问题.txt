@@ -1,0 +1,19 @@
+在linux环境下配置Samba服务器时遇到的一个问题："您可能没有权限使用网络资源"的解决方法
+搜索了很多，比如检查权限/配置/重新安装都无法解决，且/var/log/samba中连接的记录都没有
+最后发现问题：出现在重启samba服务时，只执行service smbd restart 是不够的
+需要执行
+/etc/init.d/smb restart
+/etc/init.d/nmb restart
+
+另测试smb.conf配置是否正确
+testparm
+
+工作原理：
+smb进程：控制发布目录与权限，负责文件传输TCP 139 445
+nmb进程：用于名称解析udp 137 138
+
+组成Samba运行的有两个服务，一个是SMB，另一个是NMB；\
+SMB是Samba 的核心启动服务，主要负责建立 Linux Samba服务器与Samba客户机之间的对话， 验证用户身份并提供对文件和打印系统的访问，
+只有SMB服务启动，才能实现文件的共享，监听139 TCP端口；
+而NMB服务是负责解析用的，类似与DNS实现的功能，NMB可以把Linux系统共享的工作组名称与其IP对应起来，
+如果NMB服务没有启动，就只能通过IP来访问共享文件，监听137和138 UDP端口。
