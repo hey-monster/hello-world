@@ -24,3 +24,5 @@ incorporate 合并/包括
 purple 紫色
 Take a look at your GitHub profile and you’ll see your new contribution squares!
 squares  方块
+
+Track 跟踪/轨道/履带
