@@ -1,0 +1,17 @@
+1、 Android JNI 原理分析
+2、 Android 系统框架
+3、HIDL
+
+HIDL简介
+HIDL 是用于指定 HAL 与其用户之间接口的一个接口描述语言（Interface Description Language），
+它允许将指定的类型与函数调用收集到接口（Interface）和包（Package）中。
+更广泛地说，HIDL 是一个可以让那些独立编译的代码库（Libraries）之间进行通信的系统。 
+HIDL 实际上是用于进行进程间通信（Inter-process Communication，IPC）的。进程间的通信可以称为 Binder 化（Binderized）。
+对于必须连接到进程的库，也可以使用 passthough 模式（但在Java中不支持）。 
+HIDL 将指定的数据结构与方法签名组织到接口中，这些接口又会被收集到包中以供使用。
+它的语法与 C++、JAVA 是类似的，不过关键字集合不尽相同。其注释风格与 JAVA 是一致的。
+
+HIDL设计
+设计 HIDL 这个机制的目的，主要是想把框架（framework）与 HAL 进行隔离，使得框架部分可以直接被覆盖、更新，
+而不需要重新对 HAL 进行编译。HAL 的部分将会放在设备的 /vendor 分区中，并且是由设备供应商（vendors）或 SOC 制造商来构建。
+这使得框架部分可以通过 OTA 方式更新，同时不需要重新编译 HAL。
