@@ -1,4 +1,4 @@
-final 顾名思义，“最终的，不可修改的”，它是形容词，用来修饰名词。
+1、final 顾名思义，“最终的，不可修改的”，它是形容词，用来修饰名词。
 　　final 修饰符可用于Java 的四个结构。
 
 变量：     一个 final 变量能且只能赋值一次。
@@ -9,3 +9,13 @@ final 顾名思义，“最终的，不可修改的”，它是形容词，用�
 final 变量
 　　一个 final 变量只能赋值一次，允许你声明为局部常量。这样的变量可以留后赋值，创建空白final 变量，但是所有的 final 变量必须赋值一次。
     final 变量在以下两种情形非常有用：防止意外改变方法参数和让匿名类访问变量。
+
+2、java抽象类和接口
+一、抽象类
+从形式上来说，用abstract修饰的类就是抽象类。抽象类是不完整的，只能做基类，且不能够实例化（不能new） 
+如public abstract class VolumeProvider
+https://www.bbsmax.com/A/Gkz144WNdR/
+二、接口
+对于面向对象编程来说，抽象是它的一大特征。在java中，可以通过两种形式来体现OOP的抽象：抽象类和接口。
+接口（interface），在软件工程中，接口泛指供别人调用的方法或者函数。
+[public] interface InterfaceName{
