@@ -2,3 +2,5 @@
 2、C++继承/基类/派生类
 3、成员函数可以定义在类定义内部，或者单独使用范围解析运算符 :: 来定义。在类定义中定义的成员函数把函数声明为内联的，即便没有使用 inline 标识符
 4、类访问修饰符及其在继承中的变化
+5、 new(mCblk) audio_track_cblk_t(); C++语法
+6、class AudioFlinger :  public BinderService<AudioFlinger>  ? 类模板的派生
