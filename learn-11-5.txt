@@ -26,3 +26,7 @@ Take a look at your GitHub profile and you’ll see your new contribution square
 squares  方块
 
 Track 跟踪/轨道/履带
+
+compression压缩
+verbose 详细信息 verbose=FALSE，意思就是设置运行的时候不显示详细信息
+archive 封存，档案
