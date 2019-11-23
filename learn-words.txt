@@ -30,3 +30,5 @@ Track 跟踪/轨道/履带
 compression压缩
 verbose 详细信息 verbose=FALSE，意思就是设置运行的时候不显示详细信息
 archive 封存，档案
+inherit 继承
+stale 陈旧，过时
