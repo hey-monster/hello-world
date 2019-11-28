@@ -19,3 +19,13 @@ https://www.bbsmax.com/A/Gkz144WNdR/
 对于面向对象编程来说，抽象是它的一大特征。在java中，可以通过两种形式来体现OOP的抽象：抽象类和接口。
 接口（interface），在软件工程中，接口泛指供别人调用的方法或者函数。
 [public] interface InterfaceName{
+
+3.extends
+在 Java 中通过 extends 关键字可以申明一个类是从另外一个类继承而来的，一般形式如下：
+
+类的继承格式
+class 父类 {
+}
+ 
+class 子类 extends 父类 {
+}
