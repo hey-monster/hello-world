@@ -37,4 +37,4 @@ extends关键字
 implements关键字
 使用 implements 关键字可以变相的使java具有多继承的特性，使用范围为类继承接口的情况，可以同时继承多个接口（接口跟接口之间采用逗号分隔）。
 
-![图1]（https://github.com/hey-monster/hello-world/blob/master/image/java/types_of_inheritance-1.png)
+![图1](https://github.com/hey-monster/hello-world/blob/master/image/java/types_of_inheritance-1.png)
