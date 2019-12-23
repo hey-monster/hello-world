@@ -7,3 +7,5 @@
 * C++ 类构造函数 & 析构函数 <br> 
 
 7、vector<int> twoSum(vector<int>& nums, int target)  引用、容器
+
+8、for (char c : s)  ---for循环遍历字符串
