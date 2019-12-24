@@ -9,3 +9,5 @@
 7、vector<int> twoSum(vector<int>& nums, int target)  引用、容器
 
 8、for (char c : s)  ---for循环遍历字符串
+9、静态数组与动态数组
+动态：通过new分配一个对象数组，并且需要释放，是在堆上分配内存
