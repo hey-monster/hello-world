@@ -7,3 +7,6 @@ I will update github project every day.
 ctags+cscope+taglist
 https://my.oschina.net/u/554995/blog/59927
 
+YouCompleteMe
+https://zhuanlan.zhihu.com/p/98344227
+
