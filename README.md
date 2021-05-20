@@ -13,5 +13,5 @@ YouCompleteMe
 https://zhuanlan.zhihu.com/p/98344227
 
 
-https://github.com/1c7/chinese-independent-developer
+https://github.com/1c7/chinese-independent-developer  
 https://github.com/formulahendry/955.WLB
